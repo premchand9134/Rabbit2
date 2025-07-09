@@ -1,5 +1,5 @@
 const express = require('express');
-const Order = require('../models/order'); // Adjust the path as necessary   
+const Order = require('../models/Order'); // Adjust the path as necessary   
 const { protect } = require('../middleware/authMiddleware');
 
 const router = express.Router();
